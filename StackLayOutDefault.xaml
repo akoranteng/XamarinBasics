@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LayoutSamples.StackLayOutDefault"
+             Padding="10,10,10,5"
+             Title="StacklayOut XAML Vertical">
+    <ContentPage.Content>
+  <StackLayout>
+        <StackLayout Spacing="2" Orientation="Vertical" VerticalOptions="FillAndExpand">
+			<Button Text="Default" HorizontalOptions="FillAndExpand" />
+			<!--Button  Text="Start 2" HorizontalOptions="Start" /-->
+			<Button Text="Center" HorizontalOptions="CenterAndExpand" />
+		
+			<Button Text="End 1" HorizontalOptions="EndAndExpand" />
+			
+		</StackLayout>
+</StackLayout>
+	 </ContentPage.Content>
+</ContentPage>
